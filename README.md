@@ -21,17 +21,94 @@ Prior models analyzed recruitment security via traditional text analytics models
 * **Baseline Accuracy:** Standard benchmarks peak at an **89.5% accuracy threshold** when running standard ensemble workflows on balanced text slices.
 
 ### 🚀 The Proposed Architecture
-Our optimized methodology introduces a hyper-efficient data engineering lifecycle structured around three sequential stages:
+Our optimized methodology introduces a hyper-efficient data engineering lifecycle structured around three sequential stages: Data Pre-processing (removing noise and HTML tags), Feature Selection, and Hybrid Model Classification.
 
-```text
-[Raw EMSCAD Dataset] 
-         │
-         ▼
-[Stage 1: Pre-processing] ──► Removes structural noise & HTML formatting tag sets
-         │
-         ▼
-[Stage 2: Feature Selection] ──► Extracts 7 core categorical parameters 
-         │                        (e.g., telecommuting, company_logo, questions, etc.)
-         │
-         ▼
-[Stage 3: Hybrid Classification] ──► Parallel execution across ML & 3-Layer Dense DNN
+#### Key Engineering Advantages:
+- **Dimensionality Reduction:** Restricts inputs to structural categorical features, avoiding resource-heavy tokenization or word-embedding loops.
+- **Enhanced Security:** Successfully detects advanced financial fee traps, cash-in-hand mulling traps, and identity cloning schemes.
+
+---
+
+## 📊 Algorithmic Performance Benchmarks & System Diagrams
+
+### 🔄 1. Proposed Methodology & Workflow
+The system topology relies on isolating categorical feature nodes to cleanly separate authentic posts from fraudulent risks:
+
+![Proposed Project System Methodology Flowchart](assets/methodology.png)
+
+### ⚖️ 2. Classifier Evaluation Matrix
+Below are the official comparative performance metrics compiled during the validation test phases ($80\%$ training, $20\%$ test split):
+
+| Algorithmic Classifier Model | Accuracy (%) | Precision (%) | Recall (%) | F1-Score (%) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Random Forest Classifier** | **96.5%** | 93.0% | 95.0% | 93.0% |
+| **Decision Tree** | 96.2% | 93.0% | 95.0% | 93.0% |
+| **Multilayer Perceptron (MLP)** | 96.0% | 94.0% | 95.0% | 93.0% |
+| **K-Nearest Neighbor (KNN, $k=13$)** | 95.2% | 93.0% | 95.0% | 93.0% |
+| **Support Vector Machine (RBF Kernel)** | 95.0% | 90.0% | 95.0% | 92.0% |
+| **Naïve Bayes Classifier** | 91.35% | **95.0%** | **96.0%** | **95.0%** |
+
+### 🧠 3. Deep Learning Paradigm (DNN) 10-Fold Validation
+To combat structural class imbalances within real-world recruitment data, a 10-fold cross-validation scheme was introduced for the Deep Neural Network:
+* **Architecture:** Sequential model comprising three dense structural hidden layers running a **ReLU** activation function, an adaptive learning **Adam** optimizer, and a calculated **Dropout layer** to eliminate over-fitting traps on training data.
+
+The empirical breakdown across all ten training folds highlights the relationships between accuracy, precision, and recall metrics:
+
+![DNN 10-Fold Performance Chart](assets/dnn_folds.png)
+
+* **Peak Efficiency:** Validation accuracy metrics maxed out at **99.0%** during targeted cross-validation passes (specifically Folds 5 and 9).
+* **Average Stability:** The global model maintained a steady **97.7% mean accuracy baseline** across all ten test partitions.
+
+### 🎯 4. DNN Confusion Matrix
+The mapping below shows the model's precise diagonal classification layout on unseen validation test records, confirming high statistical dependability:
+
+![DNN Model Confusion Matrix](assets/confusion_matrix.png)
+
+---
+
+## 📈 Global Benchmarking Comparison
+The performance curves below visualize how our optimized categorical-only training strategy stacks up against text-based historical models (such as TextCNN at 66% and Bi-GRU-LSTM at 70%):
+
+![Global Architecture Performance Curve Comparison](assets/model_comparison.png)
+
+---
+
+## 📉 Statistical Validation Formulas
+The accuracy metrics within this repository are mathematically generated using industry-standard statistical boundaries to verify false-positive and false-negative weight distributions:
+
+$$\text{Accuracy} = \frac{TP + TN}{TP + FP + FN + TN}$$
+
+$$\text{Precision} = \frac{TP}{TP + FP}$$
+
+$$\text{Recall} = \frac{TP}{TP + FN}$$
+
+$$\text{F1-Score} = 2 \times \frac{\text{Recall} \times \text{Precision}}{\text{Recall} + \text{Precision}}$$
+
+*(Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives)*.
+
+---
+
+## 🛠️ System Requirements & Specifications
+
+### Software Requirements
+* **Operating System:** Microsoft Windows 10
+* **Development Language:** Python
+* **IDE / Tooling Environments:** PyCharm / Visual Studio Code
+* **Local Database Engine:** SQLite
+
+### Hardware Minimum Benchmarks
+* **Processor (CPU):** Intel Core i3 Architecture
+* **System Memory (RAM):** 8 GB Physical Allocation
+* **Storage Matrix:** 1 TB Hard Disk Drive (HDD) Capacity
+* **I/O Equipment:** 15'' LED Display Panel, Standard Keyboard & Mouse
+
+---
+
+## 🔬 Academic Citations & Reference Meta
+This repository is an optimized technical implementation expanding on the research presented at the **ICREST 2021** conference:
+
+* **Official Title:** *A Comparative Study on Fake Job Post Prediction Using Different Data mining Techniques*
+* **Authors:** Sultana Umme Habiba (Green University of Bangladesh), Md. Khairul Islam (KUET), Farzana Tasnim (IIUC)
+* **Publisher & Indexing:** IEEE | **Conference Location:** Dhaka, Bangladesh
+* **Digital Object Identifier (DOI):** [10.1109/ICREST51555.2021.9331230](https://doi.org/10.1109/ICREST51555.2021.9331230)
+* **Chronology:** Presented January 2021 | Officially Indexed February 2021
