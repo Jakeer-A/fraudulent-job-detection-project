@@ -69,7 +69,7 @@ The mapping below shows the model's precise diagonal classification layout on un
 ## 📈 Global Benchmarking Comparison
 The performance curves below visualize how our optimized categorical-only training strategy stacks up against text-based historical models (such as TextCNN at 66% and Bi-GRU-LSTM at 70%):
 
-![Global Architecture Performance Curve Comparison](assets/model_comparison.png)
+![Global Architecture Performance Curve Comparison](docs/Global_Architecture_Performance_Curve_Comparison.png)
 
 ---
 
