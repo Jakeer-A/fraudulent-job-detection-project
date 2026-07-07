@@ -34,7 +34,7 @@ Our optimized methodology introduces a hyper-efficient data engineering lifecycl
 ### 🔄 1. Proposed Methodology & Workflow
 The system topology relies on isolating categorical feature nodes to cleanly separate authentic posts from fraudulent risks:
 
-![Proposed Project System Methodology Flowchart](assets/methodology.png)
+![Proposed Project System Methodology Flowchart](docs/proposed-methodology.png)
 
 ### ⚖️ 2. Classifier Evaluation Matrix
 Below are the official comparative performance metrics compiled during the validation test phases ($80\%$ training, $20\%$ test split):
