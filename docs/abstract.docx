@@ -1,0 +1,110 @@
+A Comparative Study on Fake Job Post Prediction Using Different Data 
+mining Techniques 
+In recent years, due to advancement in modern technology and social 
+communication, advertising new job posts has become very common issue in the 
+present world. So, fake job posting prediction task is going to be a great concern for 
+all. Like many other classification tasks, fake job posing prediction leaves a lot of 
+challenges to face. This paper proposed to use different data mining techniques and 
+classification algorithm like KNN, decision tree, support vector machine, naive 
+bayes classifier, random forest classifier, multilayer perceptron and deep neural 
+network to predict a job post if it is real or fraudulent. We have experimented on 
+Employment Scam Aegean Dataset (EMSCAD) containing 18000 samples. Deep 
+neural network as a classifier, performs great for this classification task. We have 
+used three dense layers for this deep neural network classifier. The trained classifier 
+shows approximately 98% classification accuracy (DNN) to predict a fraudulent job 
+post. 
+EXISTING SYSTEM: 
+Sometimes fraudulent people try to gather money illegally from job seekers. A 
+recent survey by Action Fraud from UK has shown that more than 67% people are 
+at great risk who look for jobs through online advertisements but unaware of fake 
+job posts or job scam. Many researches occurred to predict if a job post is real or 
+fake. They found statistics about many real and renowned companies and enterprises 
+who produced fake job advertisements or vacancy posts with ill-motive. They 
+experimented on EMSCAD dataset using several classification algorithms like naive 
+bayes classifier, random forest classifier,Zero R, One R etc. Random Forest 
+Classifier showed the best performance on the dataset with 89.5% classification 
+accuracy. They found logistic regression performing very poor on the dataset. One 
+R classifier performed well when they balanced the dataset and experimented on 
+that. They tried in their work to find out the problems in ORF model (Online 
+Recruitment Fraud) and to solve those problems using various dominant classifiers. 
+DISADVANTAGES OF EXISTING SYSTEM: 
+1. Online job advertisements which are fake and mostly willing to steal personal 
+and professional information of job seekers instead of giving right jobs to 
+them is known as job scam 
+2. A good number of research works are to check online fraud job advertiser. 
+Vidros  identified job scammers as fake online job advertiser. 
+Algorithm: Random Forest Classifier 
+PROPOSED SYSTEM: 
+proposed a model to detect fraud exposure in an online recruitment system. They 
+experimented on EMSCAD dataset using machine learning algorithm. They worked 
+on this dataset in three steps- data pre-processing, feature selection and fraud 
+detection using classifier. In the preprocessing step, they removed noise and html 
+tags from the data so that the general text pattern remained preserved. They applied 
+feature selection technique to reduce the number of attributes effectively and 
+efficiently. Support Vector Machine was used for feature selection and ensemble 
+classifier using random forest was used to detect fake job posts from the test data. 
+Random forest classifier seemed a tree structured classifier which worked as 
+ensemble classifier with the help of majority voting technique. This classifier 
+showed 97.4% classification accuracy to detect fake job posts. proposed to use 
+different deep neural network models like Text CNN, Bi-GRU-LSTM CNN and 
+BiGRU CNN which are pre-trained with text dataset. They worked on classifying 
+IT job dataset. They trained IT job dataset on TextCNN model consisting of 
+convolution layer, pooling layer and fully connected layer. This model trained data 
+through convolution and pooling layers. Then the trained weights were flattened and 
+passed to the fully connected layer. This model used softmax function for 
+classification technique. They also used ensemble classifier (Bi-GRU CNN, Bi
+GRULSTM CNN) using majority voting technique to increase classification 
+accuracy. They found 66% classification accuracy using TextCNN and 70% 
+accuracy for Bi-GRU- LSTM CNN individually. This classification task performed 
+best with ensemble classifier having an accuracy of 72.4%  
+ADVANTAGES OF PROPOSED SYSTEM: 
+➢ fake detector model to distinguish between true and fake news (including 
+articles, creators, subjects) using text processing.  
+➢ This approach reduces the number of trainable attribute effectively with less 
+processing time. We have made a comparative study on the same features of 
+EMSCAD . 
+Algorithm: deep learning, data mining, K Nearest Neighbor, Naive Bayes 
+classifier, fuzzy KNN, decision tree, support vector machine, random forest 
+classifier and neural network.  
+SYSTEM REQUIREMENTS: 
+HARDWARE REQUIREMENTS: 
+➢ System   
+➢ Hard Disk    
+➢ Monitor   
+:  
+:  
+:  
+Intel Core i3. 
+1TB. 
+15’’ LED 
+➢ Input Devices  
+➢ Ram    
+SOFTWARE REQUIREMENTS: 
+➢ Operating system   
+➢ Coding Language  
+➢ Tool    
+➢ Database   
+REFERENCE: 
+:  
+:  
+:  
+: 
+: 
+: 
+Keyboard, Mouse 
+8GB. 
+Windows 10. 
+Python 
+PyCharm, Visual Studio Code 
+SQLite 
+Date of Conference: 05-07 January 2021 
+Date Added to IEEE Xplore: 01 February 2021 
+ISBN Information: 
+Electronic ISBN:978-1-6654-1576-7 
+Print ISBN:978-1-6654-1574-3 
+Print on Demand(PoD) ISBN:978-1-6654-1577-4 
+USB ISBN:978-1-6654-1575-0 
+INSPEC Accession Number: 20402383 
+DOI: 10.1109/ICREST51555.2021.9331230 
+Publisher: IEEE 
+Conference Location: DHAKA, Bangladesh 
