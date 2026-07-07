@@ -54,7 +54,7 @@ To combat structural class imbalances within real-world recruitment data, a 10-f
 
 The empirical breakdown across all ten training folds highlights the relationships between accuracy, precision, and recall metrics:
 
-![DNN 10-Fold Performance Chart](assets/dnn_folds.png)
+![DNN 10-Fold Performance Chart](docs/DNN_Fold_Performance_Chart(DNN).png)
 
 * **Peak Efficiency:** Validation accuracy metrics maxed out at **99.0%** during targeted cross-validation passes (specifically Folds 5 and 9).
 * **Average Stability:** The global model maintained a steady **97.7% mean accuracy baseline** across all ten test partitions.
