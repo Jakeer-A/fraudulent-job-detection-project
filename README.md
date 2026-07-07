@@ -62,7 +62,7 @@ The empirical breakdown across all ten training folds highlights the relationshi
 ### 🎯 4. DNN Confusion Matrix
 The mapping below shows the model's precise diagonal classification layout on unseen validation test records, confirming high statistical dependability:
 
-![DNN Model Confusion Matrix](assets/confusion_matrix.png)
+![DNN Model Confusion Matrix](docs/DNN_Model_Confusion_Matrix.png)
 
 ---
 
