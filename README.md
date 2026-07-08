@@ -112,3 +112,24 @@ This repository is an optimized technical implementation expanding on the resear
 * **Publisher & Indexing:** IEEE | **Conference Location:** Dhaka, Bangladesh
 * **Digital Object Identifier (DOI):** [10.1109/ICREST51555.2021.9331230](https://doi.org/10.1109/ICREST51555.2021.9331230)
 * **Chronology:** Presented January 2021 | Officially Indexed February 2021
+
+  ---
+  ## 📂 Repository Structure
+```
+├── .gitignore             <-- Critical: Automatically ignores local database and caches
+├── README.md              <-- Project documentation
+├── requirements.txt       <-- Python dependencies (Django, Scikit-learn, Pandas, etc.)
+└── src/                   <-- Central source code folder
+    ├── manage.py          <-- Django management script
+    ├── db.sqlite3         <-- Local database file (Ignored in production via .gitignore)
+    ├── FakeJobPosting/    <-- Core Django project configuration folder
+    │   ├── __init__.py
+    │   ├── settings.py    <-- Project settings & middleware configurations
+    │   ├── urls.py        <-- Main routing configurations
+    │   └── wsgi.py        <-- Deployment application interface
+    ├── admins/            <-- Django App for Admin functionalities & classification dashboards
+    ├── users/             <-- Django App for Candidate portal & authentication
+    ├── assets/            <-- Static UI files (CSS, Javascript, System Assets)
+    └── media/             <-- Directory managing dynamic system file uploads
+```
+---
