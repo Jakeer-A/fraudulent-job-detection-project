@@ -104,9 +104,11 @@ $$\text{F1-Score} = 2 \times \frac{\text{Recall} \times \text{Precision}}{\text{
 
 ---
 
-  ---
   ## 📂 Repository Structure
+  
 ```
+Comparative Analysis of Deceptive Job Advertisement Prediction Using Data Mining/
+|
 ├── .gitignore             <-- Critical: Automatically ignores local database and caches
 ├── README.md              <-- Project documentation
 ├── requirements.txt       <-- Python dependencies (Django, Scikit-learn, Pandas, etc.)
