@@ -104,15 +104,6 @@ $$\text{F1-Score} = 2 \times \frac{\text{Recall} \times \text{Precision}}{\text{
 
 ---
 
-## 🔬 Academic Citations & Reference Meta
-This repository is an optimized technical implementation expanding on the research presented at the **ICREST 2021** conference:
-
-* **Official Title:** *A Comparative Study on Fake Job Post Prediction Using Different Data mining Techniques*
-* **Authors:** Sultana Umme Habiba (Green University of Bangladesh), Md. Khairul Islam (KUET), Farzana Tasnim (IIUC)
-* **Publisher & Indexing:** IEEE | **Conference Location:** Dhaka, Bangladesh
-* **Digital Object Identifier (DOI):** [10.1109/ICREST51555.2021.9331230](https://doi.org/10.1109/ICREST51555.2021.9331230)
-* **Chronology:** Presented January 2021 | Officially Indexed February 2021
-
   ---
   ## 📂 Repository Structure
 ```
