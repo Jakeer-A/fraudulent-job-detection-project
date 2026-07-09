@@ -1,4 +1,4 @@
-# Comparative Analysis of Deceptive Job Advertisement Prediction Using Data Mining
+# A Comparative Study on Accuracy Job Post Prediction Using Different Data mining Techniques 
 
 An advanced data science implementation evaluating traditional machine learning frameworks and deep learning topologies to proactively identify and mitigate online recruitment scam vectors.
 
